@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-12-06 15:55+0100\n"
-"PO-Revision-Date: 2015-12-06 16:38+0100\n"
+"POT-Creation-Date: 2015-12-06 17:48+0100\n"
+"PO-Revision-Date: 2015-12-06 17:54+0100\n"
 "Last-Translator: \n"
 "Language: es\n"
 "Language-Team: es <LL@li.org>\n"
@@ -23,35 +23,35 @@ msgstr ""
 msgid "Amicus. Vet Practice Management Software Made Easy."
 msgstr "Amicus. Facilitamos la gestión de su clínica veterinaria."
 
-#: templates/base.html:41
+#: templates/base.html:47
 msgid "Amicus"
 msgstr "Amicus"
 
-#: templates/base.html:44
+#: templates/base.html:50
 msgid "Home"
 msgstr "Inicio"
 
-#: templates/base.html:47
+#: templates/base.html:53
 msgid "About"
 msgstr "Presentación"
 
-#: templates/base.html:50 templates/index.html:36
+#: templates/base.html:56 templates/index.html:36
 msgid "Why Choose Amicus?"
 msgstr "¿Por qué elegir al producto Amicus?"
 
-#: templates/base.html:53
+#: templates/base.html:59
 msgid "Features"
 msgstr "Características de la aplicación"
 
-#: templates/base.html:56
+#: templates/base.html:62
 msgid "Try It Now!"
 msgstr "¡Haga la prueba ahora!"
 
-#: templates/base.html:73
+#: templates/base.html:79
 msgid "Questions? Contact Us!"
 msgstr "¿Tiene alguna pregunta? ¡Contáctenos!"
 
-#: templates/base.html:76
+#: templates/base.html:82
 msgid "amicus [at] horossolutions [dot] com"
 msgstr "amicus [arroba] horossolutions [punto] com"
 
@@ -136,16 +136,16 @@ msgstr ""
 "Toda su información se almacena en Centros de Datos los cuales son monitoreados "
 "profesionalmente y se encuentran en diversas regiones del mundo."
 
-#: templates/index.html:104 templates/index.html:113
+#: templates/index.html:104 templates/index.html:115
 #, fuzzy
 msgid "Our Features"
 msgstr "Características de la aplicación"
 
-#: templates/index.html:126
+#: templates/index.html:128
 msgid "Appointment Scheduling"
 msgstr "Programación de citas"
 
-#: templates/index.html:128
+#: templates/index.html:130
 msgid ""
 "Easily schedule appointments, view existing appointments, and manage multiple "
 "vets' schedules."
@@ -153,31 +153,31 @@ msgstr ""
 "Haga citas fácilmente, vea citas ya enregistradas, y maneje el calendario de "
 "citas de varios veterinarios de manera simultánea."
 
-#: templates/index.html:133
+#: templates/index.html:135
 msgid "Manage Patient Histories"
 msgstr "Maneje las historias de sus pacientes"
 
-#: templates/index.html:135
+#: templates/index.html:137
 msgid "Use electronic medical records to easily summarize your patient histories."
 msgstr ""
 "Use los historiales clínicos electrónicos para resumir fácilmente las historias "
 "clínicas de sus pacientes."
 
-#: templates/index.html:140
+#: templates/index.html:142
 msgid "Manage Your Communications"
 msgstr "Maneje sus comunicaciones"
 
-#: templates/index.html:142
+#: templates/index.html:144
 msgid "Send out mailing lists, appointment reminders, and more."
 msgstr ""
 "Envie boletines a sus listas de correo electrónico, recordatorios de citas, y "
 "mucho más."
 
-#: templates/index.html:147
+#: templates/index.html:149
 msgid "Worry-free Data"
 msgstr "Sistema de respaldo de datos sin preocupación"
 
-#: templates/index.html:149
+#: templates/index.html:151
 msgid ""
 "Your data is safe in our professionally-managed data centers. Backups occur "
 "automatically, so you can focus your time and energy on what's important: your "
@@ -190,11 +190,11 @@ msgstr ""
 "acceso a sus datos desde cualquier ordenador o dispositivo en cualquier lugar y "
 "en cualquier moment."
 
-#: templates/index.html:155
+#: templates/index.html:156
 msgid "No Long Staff Training Sessions"
 msgstr "El personal que utilizará el producto no requerirá largos entrenamientos"
 
-#: templates/index.html:157
+#: templates/index.html:158
 msgid ""
 "Our product doesn't ship with a 200-page long manual. Why? It's easy to use. We "
 "provide helpful tips and tricks throughout your onboarding process, as well as "
@@ -207,11 +207,11 @@ msgstr ""
 "de manejo intuitivo, para que usted pueda empezar a trabajar de una forma "
 "inmediata y efectiva desde el primer día."
 
-#: templates/index.html:162
+#: templates/index.html:163
 msgid "Easily Check Patients In"
 msgstr "Registre la llegada de sus pacientes con facilidad"
 
-#: templates/index.html:164
+#: templates/index.html:165
 msgid ""
 "You can check patients in with just 3 clicks. With an easy-to-use interface, "
 "you can either manage check-ins yourself, or set up a tablet and have patients "
@@ -223,14 +223,52 @@ msgstr ""
 "proceso ellos mismos utilizando nuestra aplicación compatible con dispositivos "
 "móviles."
 
-#: templates/index.html:181
+#: templates/index.html:182
 msgid "Try out Amicus using our free, 30-day trial."
 msgstr ""
 "¡Aproveche de nuestra prueba gratuita de 30 días y utilize nuestra aplicación!"
 
-#: templates/index.html:182
+#: templates/index.html:183
 msgid "Sign Up Now!"
 msgstr "¡Regístrese ahora!"
+
+#: templates/sign_up.html:20
+msgid "Amicus is currently in private beta. Sign up now to get free access."
+msgstr ""
+"La aplicación Amicus está actualmente disponible en fase beta privada. "
+"Regístrese ahora para recibir acceso gratuito."
+
+#: templates/sign_up.html:21
+msgid " indicates required"
+msgstr "indica que es obligatorio"
+
+#: templates/sign_up.html:23
+msgid "Email Address"
+msgstr "Dirección de email"
+
+#: templates/sign_up.html:28
+msgid "Preferred language:"
+msgstr "Idioma preferido"
+
+#: templates/sign_up.html:29
+msgid "English"
+msgstr "Inglés"
+
+#: templates/sign_up.html:30
+msgid "Spanish"
+msgstr "Español"
+
+#: templates/sign_up.html:34
+msgid "First Name"
+msgstr "Nombre"
+
+#: templates/sign_up.html:38
+msgid "Last Name"
+msgstr "Apellido"
+
+#: templates/sign_up.html:46
+msgid "Subscribe"
+msgstr "Registración"
 
 #~ msgid "Amicus Cloud"
 #~ msgstr "Amicus"
