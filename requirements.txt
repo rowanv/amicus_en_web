@@ -2,4 +2,3 @@ Flask-Bower==1.2.1
 gunicorn==19.3.0
 selenium==2.48.0
 virtualenv==13.1.2
-
