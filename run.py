@@ -1,10 +1,16 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 from flask.ext.babel import Babel
 from config import LANGUAGES
 
 
 app = Flask(__name__)
 babel = Babel(app)
+
+import logging
+from logging import FileHandler
+file_handler = FileHandler('debug.log', 'a')
+file_handler.setLevel(logging.WARNING)
+app.logger.addHandler(file_handler)
 
 @babel.localeselector
 def get_locale():
