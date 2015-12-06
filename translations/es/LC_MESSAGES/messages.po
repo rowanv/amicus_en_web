@@ -3,55 +3,234 @@
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-12-06 14:43+0100\n"
-"PO-Revision-Date: 2015-12-06 14:45+0100\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2015-12-06 15:55+0100\n"
+"PO-Revision-Date: 2015-12-06 16:38+0100\n"
+"Last-Translator: \n"
 "Language: es\n"
 "Language-Team: es <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.1.1\n"
+"X-Generator: Poedit 1.8.6\n"
 
 #: templates/base.html:12
 msgid "Amicus. Vet Practice Management Software Made Easy."
-msgstr ""
+msgstr "Amicus. Facilitamos la gestión de su clínica veterinaria."
 
 #: templates/base.html:41
-msgid "Amicus Cloud"
-msgstr ""
+msgid "Amicus"
+msgstr "Amicus"
 
 #: templates/base.html:44
 msgid "Home"
-msgstr ""
+msgstr "Inicio"
 
 #: templates/base.html:47
 msgid "About"
-msgstr ""
+msgstr "Presentación"
 
-#: templates/base.html:50
+#: templates/base.html:50 templates/index.html:36
 msgid "Why Choose Amicus?"
-msgstr ""
+msgstr "¿Por qué elegir al producto Amicus?"
 
 #: templates/base.html:53
 msgid "Features"
-msgstr ""
+msgstr "Características de la aplicación"
 
 #: templates/base.html:56
 msgid "Try It Now!"
-msgstr ""
+msgstr "¡Haga la prueba ahora!"
 
 #: templates/base.html:73
 msgid "Questions? Contact Us!"
-msgstr ""
+msgstr "¿Tiene alguna pregunta? ¡Contáctenos!"
 
 #: templates/base.html:76
 msgid "amicus [at] horossolutions [dot] com"
-msgstr ""
+msgstr "amicus [arroba] horossolutions [punto] com"
 
+#: templates/index.html:9
+msgid "Vet Practice Management Software Made Easy."
+msgstr "Amicus. Facilitamos la gestión de su clínica veterinaria."
+
+#: templates/index.html:11
+msgid "Find Out More"
+msgstr "Aprenda más sobre nuestro producto"
+
+#: templates/index.html:20
+msgid "What does the future of vet management software look like?"
+msgstr ""
+"¿Cuál será el futuro de las prácticas de gestión de las clínicas veterinarias?"
+
+#: templates/index.html:22
+msgid "Fast. Dependable. Secure. Easy to use."
+msgstr "Una aplicación rápida. Fiable. Segura. Fácil de utilizar."
+
+#: templates/index.html:22
+msgid "The best part? The future is here."
+msgstr "La mejor parte es que el futuro ya está aquí hoy."
+
+#: templates/index.html:22
+msgid "Presenting the Amicus Vet Practice Management Software App."
+msgstr ""
+"Presentamos la nueva aplicación Amicus, una aplicación de gestión de creada "
+"especialmente para las clínicas veterinarias."
+
+#: templates/index.html:46
+msgid "In The Cloud"
+msgstr "Software en la nube"
+
+#: templates/index.html:48
+msgid ""
+"Amicus runs in the cloud. No more worrying about backups. Access your data from "
+"anywhere."
+msgstr ""
+"El programa Amicus se ejecuta en la Nube. Ya no es necesario preocuparse por "
+"los respaldos de su información. Usted puede acceder a su información desde "
+"cualquier lugar."
+
+#: templates/index.html:49 templates/index.html:62 templates/index.html:75
+#: templates/index.html:88
+msgid "Learn More"
+msgstr "Aprenda más acerca <br>de nuestro producto."
+
+#: templates/index.html:59
+msgid "Intuitive Interface"
+msgstr "Interfáz de manejo intuitivo"
+
+#: templates/index.html:61
+msgid ""
+"No more hours of training just to find and use basic functionalities. You'll be "
+"ready to use Amicus from day 1."
+msgstr ""
+"Ya no es necesario recibir horas de entrenamiento para utilizar las funciones "
+"básicas de los programas de gestión. Podrá utilizar Amicus desde el primer día."
+
+#: templates/index.html:72
+msgid "Innovative"
+msgstr "Innovador"
+
+#: templates/index.html:74
+msgid ""
+"We use cutting-edge technology to bring you a lightning-fast, responsive web "
+"application."
+msgstr ""
+"Nosotros utilizamos la última tecnología para crear una aplicación con "
+"velocidades extremadamente rápidas y una aplicación con diseño web adaptable."
+
+#: templates/index.html:85
+msgid "Secure"
+msgstr "Seguro"
+
+#: templates/index.html:87
+msgid ""
+"All of your data is stored in our professionally-managed data warehouses around "
+"the world."
+msgstr ""
+"Toda su información se almacena en Centros de Datos los cuales son monitoreados "
+"profesionalmente y se encuentran en diversas regiones del mundo."
+
+#: templates/index.html:104 templates/index.html:113
+#, fuzzy
+msgid "Our Features"
+msgstr "Características de la aplicación"
+
+#: templates/index.html:126
+msgid "Appointment Scheduling"
+msgstr "Programación de citas"
+
+#: templates/index.html:128
+msgid ""
+"Easily schedule appointments, view existing appointments, and manage multiple "
+"vets' schedules."
+msgstr ""
+"Haga citas fácilmente, vea citas ya enregistradas, y maneje el calendario de "
+"citas de varios veterinarios de manera simultánea."
+
+#: templates/index.html:133
+msgid "Manage Patient Histories"
+msgstr "Maneje las historias de sus pacientes"
+
+#: templates/index.html:135
+msgid "Use electronic medical records to easily summarize your patient histories."
+msgstr ""
+"Use los historiales clínicos electrónicos para resumir fácilmente las historias "
+"clínicas de sus pacientes."
+
+#: templates/index.html:140
+msgid "Manage Your Communications"
+msgstr "Maneje sus comunicaciones"
+
+#: templates/index.html:142
+msgid "Send out mailing lists, appointment reminders, and more."
+msgstr ""
+"Envie boletines a sus listas de correo electrónico, recordatorios de citas, y "
+"mucho más."
+
+#: templates/index.html:147
+msgid "Worry-free Data"
+msgstr "Sistema de respaldo de datos sin preocupación"
+
+#: templates/index.html:149
+msgid ""
+"Your data is safe in our professionally-managed data centers. Backups occur "
+"automatically, so you can focus your time and energy on what's important: your "
+"patients and their guardians. You can also access your data from any device, at "
+"any place, at any time."
+msgstr ""
+"Sus datos se almacenan de forma segura en nuestros Centros de Datos. Los "
+"respaldos ocurren de manera automática, lo cual permite que usted se centre en "
+"lo que es más importante: las mascotas y sus dueños. Usted también puede tener "
+"acceso a sus datos desde cualquier ordenador o dispositivo en cualquier lugar y "
+"en cualquier moment."
+
+#: templates/index.html:155
+msgid "No Long Staff Training Sessions"
+msgstr "El personal que utilizará el producto no requerirá largos entrenamientos"
+
+#: templates/index.html:157
+msgid ""
+"Our product doesn't ship with a 200-page long manual. Why? It's easy to use. We "
+"provide helpful tips and tricks throughout your onboarding process, as well as "
+"an intuitive interface, so that you're able to hit the ground running from Day "
+"1."
+msgstr ""
+"Nosotros no enviamos manuales de más de 200 páginas junto con nuestro producto. "
+"¿Por qué? Porque es fácil utilizarlo. Usted recibirá consejos y sugerencias a "
+"través del producto durante el proceso de incorporación, junto con un interfáz "
+"de manejo intuitivo, para que usted pueda empezar a trabajar de una forma "
+"inmediata y efectiva desde el primer día."
+
+#: templates/index.html:162
+msgid "Easily Check Patients In"
+msgstr "Registre la llegada de sus pacientes con facilidad"
+
+#: templates/index.html:164
+msgid ""
+"You can check patients in with just 3 clicks. With an easy-to-use interface, "
+"you can either manage check-ins yourself, or set up a tablet and have patients "
+"check themselves in using our mobile-compatible application."
+msgstr ""
+"Usted puede registrar la llegada de sus pacientes con tan solo 3 clics. Como "
+"resultado del interfaz de manejo intuitivo, usted puede manejar el proceso de "
+"enregistramiento, o puede usar una tableta para que sus pacientes completen el "
+"proceso ellos mismos utilizando nuestra aplicación compatible con dispositivos "
+"móviles."
+
+#: templates/index.html:181
+msgid "Try out Amicus using our free, 30-day trial."
+msgstr ""
+"¡Aproveche de nuestra prueba gratuita de 30 días y utilize nuestra aplicación!"
+
+#: templates/index.html:182
+msgid "Sign Up Now!"
+msgstr "¡Regístrese ahora!"
+
+#~ msgid "Amicus Cloud"
+#~ msgstr "Amicus"

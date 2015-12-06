@@ -1,10 +1,9 @@
 from flask import Flask, render_template
-from flask.ext.babel import babel
+from flask.ext.babel import Babel
 from config import LANGUAGES
 
 
 app = Flask(__name__)
-app.config.from_pyfile('mysettings.cfg')
 babel = Babel(app)
 
 @babel.localeselector
