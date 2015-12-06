@@ -29,7 +29,7 @@
 
     <!-- Services -->
     <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-    <section id="services" class="services bg-primary">
+    <section id="why-choose" class="services bg-primary">
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
@@ -99,7 +99,7 @@
     </section>
 
     <!-- Callout -->
-    <aside id='callout' class="callout">
+    <aside id='features' class="callout">
         <div class="text-vertical-center">
             <h1>Our Features</h1>
         </div>
@@ -174,12 +174,12 @@
     <br>
 
     <!-- Call to Action -->
-    <aside class="call-to-action bg-primary">
+    <aside id='call-to-action' class="call-to-action bg-primary">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h3>Try out Amicus using our free, 30-day trial.</h3>
-                    <a href="/sign_up/" class="btn btn-lg btn-light">Sign Up Now!</a>
+                    <a id='button_sign_up' href="/sign_up/" class="btn btn-lg btn-light">Sign Up Now!</a>
                     <!--a href="#" class="btn btn-lg btn-dark">Look at Me!</a-->
                 </div>
             </div>
@@ -190,5 +190,5 @@
 {% endblock %}
 
 {% block endscripts %}
-<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us1.list-manage.com","uuid":"32821a94b29d1ba15ad840be3","lid":"e76d143445"}) })</script>
+
 {% endblock %}
