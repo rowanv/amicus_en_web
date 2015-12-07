@@ -24,7 +24,7 @@ e.g., on Ubuntu:
 ## on my machine
 
 fab deploy --host=rowan@amicus-vet.net
-scp ../config.yml rowan@159.203.117.177:~/sites/amicus-vet.net/source/
+
 
 
 ## Then on the actual server, within source for the website
@@ -48,3 +48,5 @@ sudo restart gunicorn-amicus-vet.net
 # ../virtualenv/bin/gunicorn -w 4 -b 0.0.0.0:5000 run:app -D
 # To view running gunicorn processes:
 # ps ax|grep gunicorn
+# pkill gunicorn
+# then restart
