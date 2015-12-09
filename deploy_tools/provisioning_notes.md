@@ -29,14 +29,14 @@ fab deploy --host=rowan@amicus-vet.net
 
 ## Then on the actual server, within source for the website
 
-sed "s/SITENAME/dash.rowanv.com/g" \
+sed "s/SITENAME/amicus-vet.net/g" \
     deploy_tools/nginx.template.conf | sudo tee \
     /etc/nginx/sites-available/amicus-vet.net
 
 sudo ln -s ../sites-available/amicus-vet.net \
     /etc/nginx/sites-enabled/amicus-vet.net
 
-sed "s/SITENAME/dash.rowanv.com/g" \
+sed "s/SITENAME/amicus-vet.net/g" \
     deploy_tools/gunicorn-upstart.template.conf | sudo tee \
     /etc/init/gunicorn-amicus-vet.net.conf
 
