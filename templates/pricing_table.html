@@ -1,0 +1,104 @@
+{% extends 'base.html' %}
+
+{% block startscripts %}
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="/static/css/reset.css"> <!-- CSS reset -->
+    <link rel="stylesheet" href="/static/css/style.css"> <!-- Resource style -->
+    <script src="/static/js/modernizr.js"></script> <!-- Modernizr -->
+{% endblock startscripts %}
+
+
+{% block content %} <header class="cd-header">
+<!-- Pricing tables from https://github.com/CodyHouse/pricing-tables/blob/master/pricing-tables-without-switcher/index.html -->
+        <h1>Pricing</h1>
+    </header>
+
+    <div class="cd-pricing-container">
+        <ul class="cd-pricing-list">
+            <li>
+                <header class="cd-pricing-header">
+                    <h2>Trial</h2>
+
+                    <div class="cd-price">
+                        <span class="cd-currency">$</span>
+                        <span class="cd-value">0</span>
+                        <span class="cd-duration">mo</span>
+                    </div>
+                </header> <!-- .cd-pricing-header -->
+
+                <div class="cd-pricing-body">
+                    <ul class="cd-pricing-features">
+                        <li><em>Free</em> 15 day trial</li>
+                        <li><em>Unlimited</em> Devices</li>
+                        <li><em>Scheduling</em> Management</li>
+                        <li><em>Medical Records</em> Management</li>
+                        <li><em>Client Information</em> Management</li>
+                        <li><em>24/7</em> Support</li>
+                    </ul>
+                </div> <!-- .cd-pricing-body -->
+
+                <footer class="cd-pricing-footer">
+                    <a class="cd-select" href="http://cloud.amicus-vet.net">Select</a>
+                </footer> <!-- .cd-pricing-footer -->
+            </li>
+            <li class="cd-popular">
+                <header class="cd-pricing-header">
+                    <h2>Yearly Subscription</h2>
+
+                    <div class="cd-price">
+                        <span class="cd-currency">$</span>
+                        <span class="cd-value">67</span>
+                        <span class="cd-duration">mo</span>
+                    </div>
+                </header> <!-- .cd-pricing-header -->
+
+                <div class="cd-pricing-body">
+                    <ul class="cd-pricing-features">
+                        <li><em>Best</em> deal!</li>
+                        <li><em>Unlimited</em> Devices</li>
+                        <li><em>Scheduling</em> Management</li>
+                        <li><em>Medical Records</em> Management</li>
+                        <li><em>Client Information</em> Management</li>
+                        <li><em>24/7</em> Support</li>
+                    </ul>
+                </div> <!-- .cd-pricing-body -->
+
+                <footer class="cd-pricing-footer">
+                    <a class="cd-select" href="/paypal/">Select</a>
+                </footer> <!-- .cd-pricing-footer -->
+            </li>
+            <li>
+                <header class="cd-pricing-header">
+                    <h2>Monthly Subscription</h2>
+
+                    <div class="cd-price">
+                        <span class="cd-currency">$</span>
+                        <span class="cd-value">79</span>
+                        <span class="cd-duration">mo</span>
+                    </div>
+                </header> <!-- .cd-pricing-header -->
+
+                <div class="cd-pricing-body">
+                    <ul class="cd-pricing-features">
+                        <li><em>Month-to-month</em> billing</li>
+                        <li><em>Unlimited</em> Devices</li>
+                        <li><em>Scheduling</em> Management</li>
+                        <li><em>Medical Records</em> Management</li>
+                        <li><em>Client Information</em> Management</li>
+                        <li><em>24/7</em> Support</li>
+                    </ul>
+                </div> <!-- .cd-pricing-body -->
+
+                <footer class="cd-pricing-footer">
+                    <a class="cd-select" href='/paypal/'>Select</a>
+                </footer>  <!-- .cd-pricing-footer -->
+            </li>
+        </ul> <!-- .cd-pricing-list -->
+    </div> <!-- .cd-pricing-container -->
+
+{% endblock content %}
+
+{% block endscripts %}
+<script src="/static/js/main-pricing-table.js"></script>
+{% endblock endscripts %}

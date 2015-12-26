@@ -27,6 +27,8 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    {% block startscripts %}
+    {% endblock %}
 
     <style>
     .feature-col {
@@ -60,6 +62,9 @@
             </li>
             <li>
                 <a href="#call-to-action" id='try-it-now' onclick = $("#menu-close").click(); >{{ _('Try It Now!') }}</a>
+            </li>
+            <li>
+                <a href="/pricing/" id='pricing' onclick = $("#menu-close").click(); >{{ _('Pricing') }}</a>
             </li>
         </ul>
     </nav>

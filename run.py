@@ -24,5 +24,13 @@ def index():
 def sign_up():
     return render_template('sign_up.html')
 
+@app.route('/pricing/')
+def pricing():
+    return render_template('pricing_table.html')
+
+@app.route('/paypal/')
+def paypal():
+    return render_template('paypal.html')
+
 if __name__ == '__main__':
     app.run(debug=False, host='0.0.0.0')
