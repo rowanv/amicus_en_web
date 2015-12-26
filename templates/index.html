@@ -179,17 +179,74 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h3>{{ _('Try out Amicus using our free, 30-day trial.') }}</h3>
-                    <a id='button_sign_up' href="/sign_up/" class="btn btn-lg btn-light">{{ _('Sign Up Now!') }}</a>
+                    <h1>{{ _('Try out Amicus using our free, 15-day trial.') }}</h1>
+                    <a id='button_sign_up' href="http://cloud.amicus-vet.net" class="btn btn-lg btn-light ">{{ _('Start Using Amicus Now!') }}</a>
                     <!--a href="#" class="btn btn-lg btn-dark">Look at Me!</a-->
                 </div>
             </div>
         </div>
     </aside>
+    <!-- ./ Call to Action -->
+
+    <!-- Special Offer -->
+    <section id="special-offer" class="special-offer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <br>
+                    <br>
+                    <h2>{{ _('Special Offer - Limited Time Only!') }}</h2>
+                    <br>
+                    <p class="lead">{{ _('Sign up for our mailing list and you could win a free year of Vet Practice Management Software!')}} <br><br>
+                        <a href="/sign_up/" class="btn btn-lg btn-success">
+                        {{ _('Sign Up Now!') }}</a></p>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+
+    <!-- Modal -->
+
+       <div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">Close</button>
+                <h1 class="modal-title text-center" id="myModalLabel">Limited Time Offer</h1>
+                </div>
+                <div class="modal-body">
+                    <h3 class='text-center'>Sign up for our mailing list and you could win a free year's subscription to Amicus Vet Management Software!</h3>
+                    <br>
+                    <br>
+                    <a type="button" class="btn btn-lg btn-success btn-block" href='/sign_up/'>I'm in!</a>
+                </div>
+                <!--div class="modal-footer">
+
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div-->
+        </div>
+      </div>
+    </div>
+    <!-- ./Modal -->
 
 
 {% endblock %}
 
 {% block endscripts %}
+<script>
+var show = function(){
+    $('#basicModal').modal('show');
+};
+
+$(window).load(function(){
+    var timer = window.setTimeout(show,5000);
+});
+</script>
 
 {% endblock %}
